@@ -21,7 +21,7 @@ body {
 .instagram-wrapper {
     display: flex;
     align-items: center; /* vertical */
-    justify-content: start; /* horizontal */
+    justify-content: center; /* horizontal */
     width: 60%;
     height: 100vh;
 }
@@ -30,7 +30,11 @@ body {
     display: flex;
     align-items: center; /* vertical */
     justify-content: center; /* horizontal */
-    width: 60%;
+    width: 50%;
+}
+
+.phone img {
+    width: 100%;
 }
 
 .login {
@@ -80,13 +84,14 @@ body {
 
 .instagram-login { /* botão de entrar */
     padding: 12px;
+    margin-bottom: 1.3rem;
     border-radius: 4px;
     background-color: #0095f6;
     color: #ffffff;
 }
 
 .instagram-logout {
-    margin-top: 1rem;
+    margin-bottom: 1.3rem;
     color: #0095f6;
 }
 
